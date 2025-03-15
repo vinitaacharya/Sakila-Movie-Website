@@ -4,7 +4,6 @@ import Navbar from './Navbar';
 import Home from './home';
 import Films from './films';
 import Customers from './customers';
-
 import './App.css';
 
 
@@ -17,7 +16,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/"element={<Home />} />
-        {/* <Route path="/films" element={<Films />} /> */}
+        { <Route path="/films" element={<Films />} /> }
         <Route path="/customers" element={<Customers />} />
       </Routes>
     </Router>
